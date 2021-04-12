@@ -1,0 +1,1 @@
+exécution sur wamp : http://localhost/ecole/TP7_Decouverte_moteur_de_templates_le_cas_de_TWIG/exemple2.php

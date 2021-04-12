@@ -1,0 +1,158 @@
+/** stylesheet */
+
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+img {
+	height: auto;
+	width: auto;
+}
+
+div
+{
+	display: block;
+	padding: 8px;
+}
+
+.haut {
+	border-bottom: 2px solid silver;
+	padding: 0px;
+	height: 90px;
+}
+
+.milieu {
+	position: relative;
+    height: auto;
+    padding: 0px;
+}
+
+.hautCentre {
+	padding: 0px;
+    text-align: center;
+    margin-left: 250px;
+    font-size: 46px;
+    padding-top: 20px;
+    height: 70px;
+}
+
+.hautGauche {
+	float : left;
+	padding: 0px;
+}
+
+.menu 
+{
+	position: absolute;
+    width: 210px;
+}
+
+.contenu {
+	position: absolute;
+    left: 220px;
+    border-left: 2px solid silver;
+}
+
+h2
+{
+	display: block;
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+table 
+{
+	border-collapse: collapse;
+	font-size: medium;
+	empty-cells: show;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th, td {
+    padding: 6px 10px;
+    border: solid 1px black;
+}
+
+
+/* AJOUT  */
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:hover {
+	color: red;
+	font-weight: bold;
+}
+
+.menu li {
+	list-style-type: none;
+	padding: 6px;
+	background-color: #DDD;
+
+	margin-bottom: 1px;
+}
+
+.contenu
+{
+	position: absolute;
+	left: 220px;
+	border-left: 2px solid silver;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+
+thead
+{
+	background-color: #FFC;
+}
+
+th, a:hover
+{
+	color: green;
+}
+
+th, a
+{
+	color: blue;
+}
+
+tr, td
+{
+	border: 1px solid black;
+	text-align: center;
+	width: 200px;
+}
+
+tr:nth-child(2n) 
+{
+	background-color: #f2f2f2;
+}
+
+.vert
+{
+	background-color: #9F9;
+	color: blue;
+}
